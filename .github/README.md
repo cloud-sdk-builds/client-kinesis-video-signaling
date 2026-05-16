@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kinesis-video-signaling`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video-signaling/v/3.1047.0).
+[`@aws-sdk/client-kinesis-video-signaling`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video-signaling/v/3.1048.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-kinesis-video-signaling - [https://cloud-sdk-builds.github.io/?sdk=client-kinesis-video-signaling](https://cloud-sdk-builds.github.io/?sdk=client-kinesis-video-signaling)
-- @aws-sdk/client-kinesis-video-signaling v3.1047.0 - [https://cloud-sdk-builds.github.io/?sdk=client-kinesis-video-signaling&version=3.1047.0](https://cloud-sdk-builds.github.io/?sdk=client-kinesis-video-signaling&version=3.1047.0)
+- @aws-sdk/client-kinesis-video-signaling v3.1048.0 - [https://cloud-sdk-builds.github.io/?sdk=client-kinesis-video-signaling&version=3.1048.0](https://cloud-sdk-builds.github.io/?sdk=client-kinesis-video-signaling&version=3.1048.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1047.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1048.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-LevWyCos32xKe9TxPAPB3BhYGA49+uEiaXe2fji0N0U6zBQpE1breINWvPknWAdM
+sha384-u9g94PlNbTa3k6ienHYjX9eXggMNFI7sprr2RZmRxTZf2uNV5k0y6qUe4fd3N4jf
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kinesis-video-signaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1047.0/index.min.mjs"
+            "@aws-sdk/client-kinesis-video-signaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1048.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1047.0/index.min.mjs": "sha384-LevWyCos32xKe9TxPAPB3BhYGA49+uEiaXe2fji0N0U6zBQpE1breINWvPknWAdM"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1048.0/index.min.mjs": "sha384-u9g94PlNbTa3k6ienHYjX9eXggMNFI7sprr2RZmRxTZf2uNV5k0y6qUe4fd3N4jf"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kinesis-video-signaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1047.0/index.min.mjs"
+                        "@aws-sdk/client-kinesis-video-signaling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1048.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1047.0/index.min.mjs": "sha384-LevWyCos32xKe9TxPAPB3BhYGA49+uEiaXe2fji0N0U6zBQpE1breINWvPknWAdM"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-signaling@3.1048.0/index.min.mjs": "sha384-u9g94PlNbTa3k6ienHYjX9eXggMNFI7sprr2RZmRxTZf2uNV5k0y6qUe4fd3N4jf"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1047.0`)
+* Always pin to a specific version (`@3.1048.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kinesis-video-signaling/blob/refs/tags/3.1047.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kinesis-video-signaling/blob/refs/tags/3.1048.0/LICENSE
 ```
 
 ---
